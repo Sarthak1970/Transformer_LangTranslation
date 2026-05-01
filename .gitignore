@@ -1,0 +1,59 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.so
+iitb_weights/
+
+# Conda
+*.conda
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+runs/
+events.out.tfevents.*
+*.tfevents*
+
+# Model checkpoints / weights folder
+weights/
+*_weights/
+*.bin
+
+# Tokenizers
+tokenizer_*.json
+
+# Hugging Face cache
+.cache/
+.huggingface/
+
+# Dataset cache (important — huge)
+~/.cache/huggingface/
+~/.cache/torch/
+
+# Temporary files
+tmp/
+temp/
+pip-tmp/
+
+# VS Code
+.vscode/
+
+# Misc
+*.csv
+*.tsv
+*.zip
+*.tar.gz
