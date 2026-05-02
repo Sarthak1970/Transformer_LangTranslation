@@ -3,7 +3,7 @@ from pathlib import Path
 from huggingface_hub import HfApi, upload_file
 import json
 
-repo_id = "Sarthak1970/transformer-en-hi"
+repo_id = "Sarthak2910/transformer-en-hi"
 model_folder = Path("iitb_weights") 
 config = {
     "seq_len": 128,

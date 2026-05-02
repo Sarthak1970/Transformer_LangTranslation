@@ -1,0 +1,6 @@
+{
+    "seq_len": 128,
+    "d_model": 512,
+    "lang_src": "en",
+    "lang_tgt": "hi"
+}
