@@ -128,7 +128,7 @@ def get_ds(config):
     ds_raw = load_dataset("cfilt/iitb-english-hindi", split='train')
 
     # pick only 20k random samples
-    ds_raw = ds_raw.shuffle(seed=42).select(range(100000))
+    # ds_raw = ds_raw.shuffle(seed=42).select(range(100000))
 
     tokenizer_src = get_or_build_tokenizer(config, ds_raw, config['lang_src'])
     tokenizer_tgt = get_or_build_tokenizer(config, ds_raw, config['lang_tgt'])
